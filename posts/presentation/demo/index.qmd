@@ -31,6 +31,26 @@ This presentation will show you examples of what you can do with Quarto and [Rev
 
 ...and much more
 
+{{< arrow from="-7.3,205.2" to="127.3,201.1" control1="9,209.3" control2="123.2,217.4" color="#e60000" label="so cool!" position="absolute" >}}
+
+{{< arrow from="660.1,195" to="504.6,225.6" position="absolute" >}}
+
+{{< arrow from="476,70.6" to="429.1,148.1" control1="400.6,70.6" control2="510.7,111.4" position="absolute" >}}
+
+
+::: {.absolute width="204px" height="102px" left="626.5px" top="186.6px" style="transform: rotate(34.3deg);"}
+Math
+:::
+
+::: {.absolute width="204px" height="102px" left="484.5px" top="-11.4px" style="transform: rotate(-23.5deg);"}
+Slides
+:::
+
+::: {.absolute width="204px" height="102px" left="-60.2px" top="172.1px"}
+👍
+:::
+
+
 ## Pretty Code {auto-animate="true"}
 
 -   Over 20 syntax highlighting themes available
@@ -410,9 +430,9 @@ Learn more: [Preview Links](https://quarto.org/docs/presentations/revealjs/prese
 10 Built-in Themes (or [create your own](https://quarto.org/docs/presentations/revealjs/themes.html#creating-themes))
 
 ::: {layout-ncol="2"}
-![](images/moon.png){.editable}
+![](images/moon.png){.absolute width="400px" height="400px" left="0px" top="0px"}
 
-![](images/sky.png){.editable}
+![](images/sky.png){.absolute width="450px" height="0px" left="0px" top="0px"}
 :::
 
 ::: footer
@@ -426,7 +446,7 @@ Quickly jump to other parts of your presentation
 :::
 
 ::: {layout="[1, 20]"}
-![](images/presentation-menu.png){.editable width="41"}
+![](images/presentation-menu.png){.absolute width="300px" height="0px" left="0px" top="0px"}
 
 Toggle the slide menu with the menu button (bottom left of slide) to go to other slides and access presentation tools.
 :::
@@ -452,13 +472,13 @@ Free form drawing and slide annotations
 :::
 
 ::: {layout="[1, 20]"}
-![](images/presentation-chalkboard.png){.editable width="41"}
+![](images/presentation-chalkboard.png){.absolute width="0px" height="0px" left="0px" top="0px"}
 
 Use the chalkboard button at the bottom left of the slide to toggle the chalkboard.
 :::
 
 ::: {layout="[1, 20]"}
-![](images/presentation-notes-canvas.png){.editable width="41"}
+![](images/presentation-notes-canvas.png){.absolute width="0px" height="0px" left="0px" top="0px"}
 
 Use the notes canvas button at the bottom left of the slide to toggle drawing on top of the current slide.
 :::
@@ -483,9 +503,9 @@ Learn more: [Overview Mode](https://quarto.org/docs/presentations/revealjs/prese
 
 ## Speaker View
 
-press {{< kbd s >}} (or use the tools in presentation menu ![](../images/navigation-menu-icon.png){.editable style="padding-bottom: 1px; margin: 0" width="0.5em" height="0.5em"}) to open speaker view
+press {{< kbd s >}} (or use the tools in presentation menu ![](../images/navigation-menu-icon.png){.absolute width="0px" height="0px" left="0px" top="0px"}) to open speaker view
 
-![](images/speaker-view.png){.editable fig-align="center" style="border: 3px solid #dee2e6;" width="780"}
+![](images/speaker-view.png){.absolute width="0px" height="0px" left="0px" top="0px"}
 
 ::: footer
 Learn more: [Speaker View](https://quarto.org/docs/presentations/revealjs/presenting.html#speaker-view)
@@ -493,7 +513,7 @@ Learn more: [Speaker View](https://quarto.org/docs/presentations/revealjs/presen
 
 ## Scroll View {#scroll-view}
 
-Press {{< kbd r >}} (or use the tools in presentation menu ![](../images/navigation-menu-icon.png){.editable style="padding-bottom: 1px; margin: 0" width="0.5em" height="0.5em"}) to open scroll view
+Press {{< kbd r >}} (or use the tools in presentation menu ![](../images/navigation-menu-icon.png){.absolute width="0px" height="0px" left="0px" top="0px"}) to open scroll view
 
 Try it now on this slide --- You'll see a scroll bar on the right and you can scroll down the presentation using your mouse.
 
